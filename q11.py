@@ -7,5 +7,5 @@ data = pd.read_csv('https://github.com/rRiks/spectrumCet/blob/master/diamonds.cs
 print("Given Dataframe size is : ")
 print(data.shape)
 print("\n Duplicate rows of diamonds DataFrame:")
-print(data.duplicated().sum(data = pd.read_csv('/storage/emulated/0/PythonTask1/diamonds.csv/diamonds.csv'))
+print(data.duplicated().sum())
 
